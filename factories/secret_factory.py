@@ -1,3 +1,3 @@
-import secrets
+from secrets import token_urlsafe
 
-print(secrets.token_urlsafe(24))
+print(token_urlsafe(24))
