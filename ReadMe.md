@@ -1,9 +1,14 @@
+# Initialisation de l'env
+<pre>
+pipenv shell
+pipenv install
+</pre>
+
 # Initialisation BDD
 <pre>
-//Ne fonctionne pas !
-db_factory.py
-tables_factory.py
-data_factory.py
+python -m factories.db_factory.py
+python -m factories.tables_factory.py
+python -m factories.data_factory.py
 </pre>
 
 # Run app
