@@ -5,6 +5,8 @@ pipenv install
 </pre>
 
 # Initialisation BDD
+Update `__init__.py` file if you need to set a password for your db
+
 <pre>
 python -m factories.db_factory.py
 python -m factories.tables_factory.py
