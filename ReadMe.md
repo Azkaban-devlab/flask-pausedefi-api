@@ -5,6 +5,14 @@ pipenv install
 </pre>
 
 # Initialisation BDD
+### Ruben reminder
+<pre>
+pipenv install PyMySQL
+
+import pymysql
+pymysql.install_as_MySQLdb()
+</pre>
+
 Update `__init__.py` file if you need to set a password for your db
 
 <pre>
