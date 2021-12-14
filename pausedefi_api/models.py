@@ -66,8 +66,9 @@ class Room(db.Model):
     creator_id = db.Column(db.Integer, db.ForeignKey('user.id'))
     creator = db.relationship('User', backref=db.backref('rooms_created'))
 
-    def __init__(self, name):
+    def __init__(self, name, bio):
         self.name = name
+        self.bio = bio
 
     def __repr__(self):
         return f"Room('{self.name}')"

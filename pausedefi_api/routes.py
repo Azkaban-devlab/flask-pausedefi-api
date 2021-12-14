@@ -4,6 +4,10 @@ from pausedefi_api.schemas import *
 from werkzeug.security import generate_password_hash
 import jwt
 from functools import wraps
+from sqlalchemy import or_
+#import pymysql
+
+#pymysql.install_as_MySQLdb()
 
 
 # SECURITY
@@ -12,8 +16,11 @@ def auth_token_required(func):
     @wraps(func)
     def decorated(*args, **kwargs):
         bearer = request.headers.get('Authorization')
-        token = bearer.split()[1]
-        if not token:
+        if bearer is not None:
+            token = bearer.split()[1]
+        else:
+            token = None
+        if token is None:
             return jsonify({'error': 'Token is missing!'}), 401
         try:
             data = jwt.decode(token, app.config['SECRET_KEY'], algorithms=["HS256"])
@@ -32,6 +39,12 @@ def auth_token_generate(email):
     return jsonify({'token': token}), 200
 
 
+def decode_auth_token(auth_header):
+    token = auth_header.split()[1]
+    email = jwt.decode(token, app.config['SECRET_KEY'], algorithms=["HS256"])['email']
+    return email
+
+
 # ROUTES
 @app.route('/')
 @app.route('/home')
@@ -39,27 +52,83 @@ def home():
     return render_template('home.html')
 
 
+# ROOM
+@app.route('/api/room', methods=['POST'])
+@auth_token_required
+def create_room():
+    room = Room(
+        name=request.json['name'],
+        bio=request.json['bio']
+    )
+    room.creator_id = request.json['creator_id']
+    db.session.add(room)
+    failed = False
+    try:
+        db.session.commit()
+    except:
+        db.session.rollback()
+        db.session.flush()
+        failed = True
+    if not failed:
+        return jsonify({'access_code': room.access})
+    else:
+        return jsonify({"error": "Not able to save in db"}), 500
+
+
+@app.route('/api/room/access', methods=['POST'])
+@auth_token_required
+def access_room():
+    room = Room.query.filter(Room.access == request.json["access_code"]).first()
+    user = User.query.filter(User.id == request.json["user_id"]).first()
+    room.users.append(user)
+    db.session.add(room)
+    failed = False
+    try:
+        db.session.commit()
+    except:
+        db.session.rollback()
+        db.session.flush()
+        failed = True
+    if not failed:
+        return jsonify(), 200
+    else:
+        return jsonify({"error": "Not able to save in db"}), 500
+
+
+@app.route('/api/room/<int:id>')
+@auth_token_required
+def get_room_by_id(id):
+    return RoomSchema().jsonify(Room.query.filter(Room.id == id).first())
+
+
+@app.route('/api/me/rooms')
+@auth_token_required
+def get_my_rooms():
+    email = decode_auth_token(request.headers.get('Authorization'))
+    user = User.query.filter(User.email == email).first()
+    return RoomSchema(many=True).jsonify(Room.query.filter(or_(Room.users.any(id=user.id), user.id == Room.creator_id)))
+
+
 @app.route('/api/user/me')
 @auth_token_required
 def get_me():
-
     return UserSchema(many=True).jsonify(User.query.all())
 
 
 @app.route('/users')
-@auth_token_required
+# @auth_token_required
 def get_all_users():
     return UserSchema(many=True).jsonify(User.query.all())
 
 
 @app.route('/challenges')
-@auth_token_required
+# @auth_token_required
 def get_all_challenges():
     return ChallengeSchema(many=True).jsonify(Challenge.query.all())
 
 
 @app.route('/rooms')
-@auth_token_required
+# @auth_token_required
 def get_all_rooms():
     return RoomSchema(many=True).jsonify(Room.query.all())
 
