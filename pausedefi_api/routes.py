@@ -36,7 +36,7 @@ def auth_token_generate(email):
         'email': email  # ,
         # 'expiration': str(datetime.utcnow() + timedelta(seconds=60))
     }, app.config['SECRET_KEY'])
-    return jsonify({'token': token}), 200
+    return jsonify({'access_token': token}), 200
 
 
 def decode_auth_token(auth_header):
@@ -101,7 +101,7 @@ def get_room_by_id(id):
     return RoomSchema().jsonify(Room.query.filter(Room.id == id).first())
 
 
-@app.route('/api/me/rooms')
+@app.route('/api/users/me/rooms')
 @auth_token_required
 def get_my_rooms():
     email = decode_auth_token(request.headers.get('Authorization'))
@@ -109,10 +109,12 @@ def get_my_rooms():
     return RoomSchema(many=True).jsonify(Room.query.filter(or_(Room.users.any(id=user.id), user.id == Room.creator_id)))
 
 
-@app.route('/api/user/me')
+@app.route('/api/users/me')
 @auth_token_required
 def get_me():
-    return UserSchema(many=True).jsonify(User.query.all())
+    email = decode_auth_token(request.headers.get('Authorization'))
+    user = User.query.filter(User.email == email).first()
+    return UserSchema().jsonify(user)
 
 
 @app.route('/users')
@@ -151,13 +153,16 @@ def register():
     return jsonify({'error': 'TOCARD'}), 401
 
 
-@app.route('/login', methods=['POST'])
+@app.route('/auth/login', methods=['POST'])
 def login():
-    content = request.json
-    email = content['email']
-    password = content['password']
+    content = request.form
+    try:
+        email = content['email']
+        password = content['password']
 
-    user = User.query.filter(User.email == email).first()
-    if user.check_password(password):
-        return auth_token_generate(email)
-    return jsonify({'error': 'TOCARD'}), 401
+        user = User.query.filter(User.email == email).first()
+        if user.check_password(password):
+            return auth_token_generate(email)
+        return jsonify({'error': 'TOCARD'}), 401
+    except:
+        return jsonify({'error': 'Aucune donnée'}), 500
