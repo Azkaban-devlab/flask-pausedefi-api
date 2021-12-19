@@ -3,7 +3,7 @@ from pausedefi_api import app, db
 from flask_marshmallow import Marshmallow
 from flask_marshmallow.fields import fields
 from marshmallow_sqlalchemy import SQLAlchemySchemaOpts
-from marshmallow import pre_load, post_load, post_dump
+from marshmallow import pre_load, post_load, post_dump, EXCLUDE
 
 ma = Marshmallow(app)
 
@@ -12,12 +12,17 @@ class BaseOpts(SQLAlchemySchemaOpts):
     def __init__(self, meta, ordered=False):
         if not hasattr(meta, "sqla_session"):
             meta.sqla_session = db.Session
+            meta.load_instance = True
+            meta.include_relationships = True
+            meta.partial = True
+            meta.unknown = EXCLUDE
         super(BaseOpts, self).__init__(meta, ordered=ordered)
 
 
 class BaseSchema(ma.SQLAlchemySchema):
     OPTIONS_CLASS = BaseOpts
     __envelope__ = {"single": None, "many": None}
+    __model__ = None
 
     def get_envelope_key(self, many):
         """Helper to get the envelope key."""
@@ -26,9 +31,27 @@ class BaseSchema(ma.SQLAlchemySchema):
         return key
 
     @pre_load(pass_many=True)
-    def unwrap_envelope(self, data, many, **kwargs):
-        key = self.get_envelope_key(many)
-        return data[key]
+    def remove_none(self, data, many, **kwargs):
+        removed = []
+        if many:
+            for d in data:
+                for field in d:
+                    if d[field] is None:
+                        removed.append(field)
+        else:
+            for field in data:
+                if data[field] is None:
+                    removed.append(field)
+        if many:
+            for item in removed:
+                for field in data:
+                    if item in field:
+                        field.pop(item)
+        else:
+            for item in removed:
+                if item in data:
+                    data.pop(item)
+        return data
 
     @post_dump(pass_many=True)
     def wrap_with_envelope(self, data, many, **kwargs):
@@ -40,17 +63,30 @@ class BaseSchema(ma.SQLAlchemySchema):
         return self.__model__(**data)
 
 
-class ChallengeSchema(ma.SQLAlchemyAutoSchema):
+class ChallengeSchema(BaseSchema):
+    __envelope__ = {'single': 'data', 'many':'data'}
+    __model__ = models.Challenge
+    id = fields.Integer()
+    title = fields.Str()
+    content = fields.Str()
     challengers = ma.Nested(lambda: UserSchema(exclude=['challenges', 'rooms', 'rooms_created']), many=True)
     room = ma.Nested(lambda: RoomSchema(exclude=['challenges', 'bio', 'users', 'creator']), many=False)
     creator = ma.Nested(lambda: UserSchema(exclude=['challenges', 'rooms', 'rooms_created']), many=False)
 
-    class Meta:
-        model = models.Challenge
+    @post_dump(pass_many=True)
+    def unwrap_envelope(self, data, many):
+        if data:
+            if many:
+                for i in range(0, len(data)):
+                    data[i]['challengers'] = data[i]['challengers']['data']
+            else:
+                data['challengers'] = data['challengers']['data']
+        return data
 
 
 class UserSchema(BaseSchema):
     __envelope__ = {'single': 'data', 'many':'data'}
+    __model__ = models.User
     password = fields.Str(load_only=True)
     email = fields.Str()
     id = fields.Integer()
@@ -58,18 +94,16 @@ class UserSchema(BaseSchema):
     rooms = ma.Nested(lambda: RoomSchema(exclude=['challenges']), many=True)
     rooms_created = ma.Nested(lambda: RoomSchema(exclude=['challenges']), many=True)
 
-    class Meta:
-        model = models.User
-
 
 class RoomSchema(BaseSchema):
     __envelope__ = {'single': 'data', 'many': 'data'}
+    __model__ = models.Room
     id = fields.Integer()
     creator_id = fields.Integer()
     name = fields.Str()
     bio = fields.Str()
     access = fields.Str(load_only=True)
-    challenges = ma.Nested(lambda: ChallengeSchema(exclude=['room']), many=True)
+    challenges = ma.Nested(lambda: ChallengeSchema(exclude=['room'], many=True, unknown=EXCLUDE), many=True)
     users = ma.Nested(lambda: UserSchema(exclude=['challenges', 'rooms', 'rooms_created']), many=True)
     creator = ma.Nested(lambda: UserSchema(exclude=['challenges', 'rooms', 'rooms_created']), many=False)
 
@@ -80,10 +114,9 @@ class RoomSchema(BaseSchema):
                 for i in range(0, len(data)):
                     data[i]['creator'] = data[i]['creator']['data']
                     data[i]['users'] = data[i]['users']['data']
+                    data[i]['challenges'] = data[i]['challenges']['data']
             else:
                 data['creator'] = data['creator']['data']
                 data['users'] = data['users']['data']
+                data['challenges'] = data['challenges']['data']
         return data
-
-    class Meta:
-        model = models.Room

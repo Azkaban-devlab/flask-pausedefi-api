@@ -1,7 +1,7 @@
 from werkzeug.security import check_password_hash, generate_password_hash
 from pausedefi_api import db
 from datetime import datetime
-from secrets import token_hex
+import uuid
 
 
 users_challenges = db.Table(
@@ -47,10 +47,6 @@ class Challenge(db.Model):
     creator_id = db.Column(db.Integer, db.ForeignKey('user.id'))
     creator = db.relationship('User', backref=db.backref('challenges_created'))
 
-    def __init__(self, title, content):
-        self.title = title
-        self.content = content
-
     def __repr__(self):
         return f"Challenge('{self.title}')"
 
@@ -59,16 +55,12 @@ class Room(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(255), nullable=False, unique=False)
     bio = db.Column(db.Text, nullable=True, unique=False)
-    access = db.Column(db.String(255), nullable=False, unique=True, default=token_hex(5))
+    access = db.Column(db.String(255), nullable=False, unique=True, default=uuid.uuid4().hex[:5])
 
     users = db.relationship('User', secondary=users_rooms, backref=db.backref('rooms', lazy='dynamic'))
 
     creator_id = db.Column(db.Integer, db.ForeignKey('user.id'))
     creator = db.relationship('User', backref=db.backref('rooms_created'))
-
-    def __init__(self, name, bio):
-        self.name = name
-        self.bio = bio
 
     def __repr__(self):
         return f"Room('{self.name}')"

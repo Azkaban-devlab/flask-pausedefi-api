@@ -53,19 +53,20 @@ def home():
 
 
 # ROOM
-@app.route('/api/room', methods=['POST'])
+@app.route('/api/room/create', methods=['POST'])
 @auth_token_required
 def create_room():
-    room = Room(
-        name=request.json['name'],
-        bio=request.json['bio']
-    )
-    room.creator_id = request.json['creator_id']
+    room = RoomSchema().load(request.get_json(), partial=True)
+    email = decode_auth_token(request.headers.get('Authorization'))
+    user = User.query.filter(User.email == email).first()
+    room.creator_id = user.id
+    room.creator = user
     db.session.add(room)
     failed = False
     try:
         db.session.commit()
-    except:
+    except Exception as e:
+        print(e)
         db.session.rollback()
         db.session.flush()
         failed = True
