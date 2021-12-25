@@ -19,13 +19,17 @@ users_rooms = db.Table(
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
+    last_name = db.Column(db.String(255), nullable=False)
+    first_name = db.Column(db.String(255), nullable=False)
     email = db.Column(db.String(255), nullable=False, unique=True)
     password = db.Column(db.String(255), nullable=False, unique=False)
     date_registered = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
 
-    def __init__(self, email, password):
+    def __init__(self, email, password, first_name, last_name):
         self.email = email
         self.password = generate_password_hash(password)
+        self.first_name = first_name
+        self.last_name = last_name
 
     def __repr__(self):
         return f"User('{self.email}')"
@@ -55,12 +59,17 @@ class Room(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(255), nullable=False, unique=False)
     bio = db.Column(db.Text, nullable=True, unique=False)
-    access = db.Column(db.String(255), nullable=False, unique=True, default=uuid.uuid4().hex[:5])
+    access = db.Column(db.String(255), nullable=False, unique=True)
 
     users = db.relationship('User', secondary=users_rooms, backref=db.backref('rooms', lazy='dynamic'))
 
     creator_id = db.Column(db.Integer, db.ForeignKey('user.id'))
     creator = db.relationship('User', backref=db.backref('rooms_created'))
+
+    def __init__(self, name, challenges):
+        self.name = name,
+        self.challenges = challenges
+        self.access = uuid.uuid4().hex[:5]
 
     def __repr__(self):
         return f"Room('{self.name}')"

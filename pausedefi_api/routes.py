@@ -31,9 +31,9 @@ def auth_token_required(func):
     return decorated
 
 
-def auth_token_generate(email):
+def auth_token_generate(user_id):
     token = jwt.encode({
-        'email': email  # ,
+        'user_id': user_id  # ,
         # 'expiration': str(datetime.utcnow() + timedelta(seconds=60))
     }, app.config['SECRET_KEY'])
     return jsonify({'access_token': token}), 200
@@ -41,8 +41,19 @@ def auth_token_generate(email):
 
 def decode_auth_token(auth_header):
     token = auth_header.split()[1]
-    email = jwt.decode(token, app.config['SECRET_KEY'], algorithms=["HS256"])['email']
-    return email
+    user_id = jwt.decode(token, app.config['SECRET_KEY'], algorithms=["HS256"])['user_id']
+    return user_id
+
+
+def save_in_db():
+    try:
+        db.session.commit()
+        return False
+    except Exception as e:
+        print(e)
+        db.session.rollback()
+        db.session.flush()
+        return True
 
 
 # ROUTES
@@ -57,21 +68,14 @@ def home():
 @auth_token_required
 def create_room():
     room = RoomSchema().load(request.get_json(), partial=True)
-    email = decode_auth_token(request.headers.get('Authorization'))
-    user = User.query.filter(User.email == email).first()
+    user_id = decode_auth_token(request.headers.get('Authorization'))
+    user = User.query.filter(User.id == user_id).first()
     room.creator_id = user.id
     room.creator = user
     db.session.add(room)
-    failed = False
-    try:
-        db.session.commit()
-    except Exception as e:
-        print(e)
-        db.session.rollback()
-        db.session.flush()
-        failed = True
+    failed = save_in_db()
     if not failed:
-        return jsonify({'access_code': room.access})
+        return jsonify({'access_code': room.access, 'id': room.id})
     else:
         return jsonify({"error": "Not able to save in db"}), 500
 
@@ -80,18 +84,13 @@ def create_room():
 @auth_token_required
 def access_room():
     room = Room.query.filter(Room.access == request.json["access_code"]).first()
-    user = User.query.filter(User.id == request.json["user_id"]).first()
+    user_id = decode_auth_token(request.headers.get('Authorization'))
+    user = User.query.filter(User.id == user_id).first()
     room.users.append(user)
     db.session.add(room)
-    failed = False
-    try:
-        db.session.commit()
-    except:
-        db.session.rollback()
-        db.session.flush()
-        failed = True
+    failed = save_in_db()
     if not failed:
-        return jsonify(), 200
+        return RoomSchema().jsonify(room), 200
     else:
         return jsonify({"error": "Not able to save in db"}), 500
 
@@ -105,16 +104,16 @@ def get_room_by_id(id):
 @app.route('/api/users/me/rooms')
 @auth_token_required
 def get_my_rooms():
-    email = decode_auth_token(request.headers.get('Authorization'))
-    user = User.query.filter(User.email == email).first()
+    user_id = decode_auth_token(request.headers.get('Authorization'))
+    user = User.query.filter(User.id == user_id).first()
     return RoomSchema(many=True).jsonify(Room.query.filter(or_(Room.users.any(id=user.id), user.id == Room.creator_id)))
 
 
 @app.route('/api/users/me')
 @auth_token_required
 def get_me():
-    email = decode_auth_token(request.headers.get('Authorization'))
-    user = User.query.filter(User.email == email).first()
+    user_id = decode_auth_token(request.headers.get('Authorization'))
+    user = User.query.filter(User.id == user_id).first()
     return UserSchema().jsonify(user)
 
 
@@ -136,34 +135,32 @@ def get_all_rooms():
     return RoomSchema(many=True).jsonify(Room.query.all())
 
 
-@app.route('/register', methods=['POST'])
+@app.route('/auth/register', methods=['POST'])
 def register():
     content = request.json
     email = content['email']
-    password = generate_password_hash(content['password'])
+    password = content['password']
+    first_name = content['first_name']
+    last_name = content['last_name']
 
-    user = User(email=email, password=password)
+    user = User(email=email, password=password, first_name=first_name, last_name=last_name)
     db.session.add(user)
-    try:
-        db.session.commit()
-        failed = False
-    except:
-        failed = True
+    failed = save_in_db()
     if not failed:
-        return auth_token_generate(email)
+        return auth_token_generate(user.id)
     return jsonify({'error': 'TOCARD'}), 401
 
 
 @app.route('/auth/login', methods=['POST'])
 def login():
-    content = request.form
+    content = request.json
     try:
         email = content['email']
         password = content['password']
 
         user = User.query.filter(User.email == email).first()
         if user.check_password(password):
-            return auth_token_generate(email)
+            return auth_token_generate(user.id)
         return jsonify({'error': 'TOCARD'}), 401
     except:
         return jsonify({'error': 'Aucune donnée'}), 500

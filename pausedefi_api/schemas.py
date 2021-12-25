@@ -89,6 +89,8 @@ class UserSchema(BaseSchema):
     __model__ = models.User
     password = fields.Str(load_only=True)
     email = fields.Str()
+    first_name = fields.Str()
+    last_name = fields.Str()
     id = fields.Integer()
     challenges = ma.Nested(lambda: ChallengeSchema(exclude=['challengers']), many=True)
     rooms = ma.Nested(lambda: RoomSchema(exclude=['challenges']), many=True)
