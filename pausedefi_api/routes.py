@@ -194,7 +194,7 @@ def update_state(challenge_id):
             index = i
     user.challenges[index].update_state(state=ChallengeState(request.json['state']), user_id=user_id)
     room = Room.query.filter(Room.id == room_id).first()
-    if(ChallengeState(request.json['state']) == ChallengeState.succeed):
+    if ChallengeState(request.json['state']) == ChallengeState.succeed:
         room.update_point(point=user.challenges[index].points, user_id=user_id)  
     db.session.add(user)
     failed = save_in_db()
