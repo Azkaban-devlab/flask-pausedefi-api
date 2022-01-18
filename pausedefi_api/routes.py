@@ -3,7 +3,7 @@ from pausedefi_api.models import *
 from pausedefi_api.schemas import *
 import jwt
 from functools import wraps
-from sqlalchemy import or_, and_, asc
+from sqlalchemy import or_, and_, desc
 
 
 # SECURITY
@@ -104,7 +104,7 @@ def get_users_in_room(id):
     user_id = decode_auth_token(request.headers.get('Authorization'))
     order_by = request.args.get('order_by', type=str)
     if order_by is not None:
-        return UserSchema(many=True, context={'room_id': id}).jsonify(User.query.filter(or_(User.rooms.any(id=id), User.rooms.any(creator_id=User.id))).join(User.room_users).order_by(RoomUsers.points).all())
+        return UserSchema(many=True, context={'room_id': id}).jsonify(User.query.filter(or_(User.rooms.any(id=id), User.rooms.any(creator_id=User.id))).join(User.room_users).order_by(desc(RoomUsers.points)).all())
     else:
         return UserSchema(many=True, context={'room_id': id}).jsonify(User.query.filter(or_(User.rooms.any(id=id), User.rooms_created.any(id=id))).filter(User.id != user_id).all())
 
@@ -194,7 +194,8 @@ def update_state(challenge_id):
             index = i
     user.challenges[index].update_state(state=ChallengeState(request.json['state']), user_id=user_id)
     room = Room.query.filter(Room.id == room_id).first()
-    room.update_point(point=user.challenges[index].points, user_id=user_id)
+    if ChallengeState(request.json['state']) == ChallengeState.succeed:
+        room.update_point(point=user.challenges[index].points, user_id=user_id)  
     db.session.add(user)
     failed = save_in_db()
     if not failed:

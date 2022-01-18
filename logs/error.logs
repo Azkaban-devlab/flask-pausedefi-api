@@ -1,0 +1,294 @@
+[Mon Jan 17 16:11:09.338011 2022] [wsgi:error] [pid 6780:tid 140692760278784] [client 89.30.29.68:33555] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi, referer: http://195.110.59.33:6080/
+[Mon Jan 17 16:11:09.532767 2022] [wsgi:error] [pid 6780:tid 140692751886080] [client 89.30.29.68:33555] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi, referer: http://pausedefi.online/
+[Mon Jan 17 16:11:16.601752 2022] [wsgi:error] [pid 6780:tid 140692676351744] [client 89.30.29.68:63095] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Mon Jan 17 17:20:18.127151 2022] [wsgi:error] [pid 6780:tid 140692625995520] [client 94.190.113.89:50048] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Mon Jan 17 20:00:36.459419 2022] [wsgi:error] [pid 6780:tid 140692684744448] [client 14.224.114.196:37663] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Mon Jan 17 22:52:10.191673 2022] [wsgi:error] [pid 6780:tid 140692609210112] [client 198.98.59.49:36942] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Mon Jan 17 23:31:48.502062 2022] [wsgi:error] [pid 6780:tid 140692726707968] [client 5.190.92.49:40264] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 00:06:05.185965 2022] [wsgi:error] [pid 7478:tid 140692726707968] [client 35.195.73.151:38294] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 00:24:17.316067 2022] [wsgi:error] [pid 7478:tid 140692735100672] [client 167.172.235.83:51806] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 01:31:25.885253 2022] [wsgi:error] [pid 7478:tid 140692676351744] [client 168.232.15.246:33031] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 03:15:22.042633 2022] [wsgi:error] [pid 7478:tid 140692751886080] [client 184.105.139.68:20190] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 03:49:43.125648 2022] [wsgi:error] [pid 7478:tid 140692651173632] [client 171.97.203.17:3315] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 05:32:11.647829 2022] [wsgi:error] [pid 7478:tid 140692600817408] [client 35.165.215.140:44239] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 05:32:42.607420 2022] [wsgi:error] [pid 7478:tid 140692760278784] [client 54.189.230.128:18996] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 05:47:50.260390 2022] [wsgi:error] [pid 7478:tid 140692777064192] [client 128.199.160.152:47734] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 05:55:54.011508 2022] [wsgi:error] [pid 7478:tid 140692793849600] [client 146.59.157.229:48738] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 05:57:44.684733 2022] [wsgi:error] [pid 7478:tid 140692709922560] [client 128.199.160.152:34432] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 06:01:52.445644 2022] [wsgi:error] [pid 7478:tid 140692735100672] [client 176.53.219.214:40235] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 06:01:52.719490 2022] [wsgi:error] [pid 7478:tid 140692701529856] [client 176.113.42.106:33648] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 06:03:24.066182 2022] [wsgi:error] [pid 7478:tid 140692684744448] [client 167.94.138.60:54980] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 06:03:24.252361 2022] [wsgi:error] [pid 7478:tid 140692667959040] [client 167.94.138.60:49362] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 06:12:55.122565 2022] [wsgi:error] [pid 7478:tid 140692659566336] [client 207.102.138.19:57330] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 06:28:38.088250 2022] [wsgi:error] [pid 7478:tid 140692600817408] [client 46.244.89.151:47638] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 06:28:38.092527 2022] [wsgi:error] [pid 7478:tid 140692642780928] [client 46.244.89.151:47640] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 06:28:38.096530 2022] [wsgi:error] [pid 7478:tid 140692609210112] [client 46.244.89.151:47639] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 06:28:38.097410 2022] [wsgi:error] [pid 7478:tid 140692760278784] [client 46.244.89.151:47641] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 07:00:24.439166 2022] [wsgi:error] [pid 7478:tid 140692709922560] [client 82.27.240.89:40872] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 07:01:14.638816 2022] [wsgi:error] [pid 7478:tid 140692735100672] [client 3.145.186.207:57702] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 07:01:18.770534 2022] [wsgi:error] [pid 7478:tid 140692701529856] [client 3.145.186.207:57784] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 07:01:22.300892 2022] [wsgi:error] [pid 7478:tid 140692684744448] [client 18.116.112.168:54880] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 07:01:26.224068 2022] [wsgi:error] [pid 7478:tid 140692676351744] [client 18.116.112.168:54932] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 07:11:05.053751 2022] [wsgi:error] [pid 7478:tid 140692651173632] [client 35.233.62.116:56054] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 07:14:04.702464 2022] [wsgi:error] [pid 7478:tid 140692600817408] [client 119.13.209.156:45957] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 07:33:00.656700 2022] [wsgi:error] [pid 7478:tid 140692609210112] [client 45.90.61.206:43149] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 07:33:00.933814 2022] [wsgi:error] [pid 7478:tid 140692760278784] [client 45.90.61.250:41133] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 07:45:27.959409 2022] [wsgi:error] [pid 7478:tid 140692634388224] [client 20.124.3.62:64259] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 08:01:04.021663 2022] [wsgi:error] [pid 7478:tid 140692785456896] [client 89.30.29.68:20180] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi, referer: http://195.110.59.33:6080/
+[Tue Jan 18 08:01:04.668611 2022] [wsgi:error] [pid 7478:tid 140692793849600] [client 89.30.29.68:20180] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi, referer: http://pausedefi.online/
+[Tue Jan 18 08:21:45.181210 2022] [wsgi:error] [pid 7478:tid 140692718315264] [client 181.114.137.136:43945] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 08:25:31.029575 2022] [wsgi:error] [pid 9404:tid 140692709922560] [client 89.30.29.68:34793] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi, referer: http://195.110.59.33:6080/
+[Tue Jan 18 08:26:47.972905 2022] [wsgi:error] [pid 9459:tid 140692768671488] [client 89.30.29.68:9322] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 08:26:49.474979 2022] [wsgi:error] [pid 9459:tid 140692701529856] [client 89.30.29.68:9322] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 08:26:50.699250 2022] [wsgi:error] [pid 9459:tid 140692684744448] [client 89.30.29.68:9322] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 08:26:50.929316 2022] [wsgi:error] [pid 9459:tid 140692676351744] [client 89.30.29.68:9322] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi, referer: http://pausedefi.online/
+[Tue Jan 18 08:26:51.373707 2022] [wsgi:error] [pid 9459:tid 140692659566336] [client 89.30.29.68:9322] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 08:30:35.006583 2022] [wsgi:error] [pid 9562:tid 140692768671488] [client 89.30.29.68:49013] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 08:30:35.890594 2022] [wsgi:error] [pid 9562:tid 140692760278784] [client 89.30.29.68:49013] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 08:30:36.060175 2022] [wsgi:error] [pid 9562:tid 140692751886080] [client 89.30.29.68:49013] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 08:30:36.274838 2022] [wsgi:error] [pid 9562:tid 140692743493376] [client 89.30.29.68:49013] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 08:30:42.328192 2022] [wsgi:error] [pid 9562:tid 140692718315264] [client 89.30.29.68:49789] Target WSGI script not found or unable to stat: /var/www/pausedefi/app.wsgi
+[Tue Jan 18 08:39:09.356488 2022] [wsgi:error] [pid 9760:tid 140692858115840] [remote 89.30.29.68:48405] mod_wsgi (pid=9760): Target WSGI script '/var/www/pausedefi/pausedefi.wsgi' does not contain WSGI application 'application'.
+[Tue Jan 18 13:02:49.407473 2022] [wsgi:error] [pid 11371:tid 140692858115840] [remote 92.184.112.15:51522] <Request 'http://pausedefi.online/api/users/me' [GET]>
+[Tue Jan 18 13:02:49.408466 2022] [wsgi:error] [pid 11371:tid 140692858115840] [remote 92.184.112.15:51522] User-Agent: PostmanRuntime/7.28.4\r
+[Tue Jan 18 13:02:49.408480 2022] [wsgi:error] [pid 11371:tid 140692858115840] [remote 92.184.112.15:51522] Accept: */*\r
+[Tue Jan 18 13:02:49.408485 2022] [wsgi:error] [pid 11371:tid 140692858115840] [remote 92.184.112.15:51522] Cache-Control: no-cache\r
+[Tue Jan 18 13:02:49.408490 2022] [wsgi:error] [pid 11371:tid 140692858115840] [remote 92.184.112.15:51522] Postman-Token: ded055a6-2fa3-43d7-86cc-8ce8d7f8c01a\r
+[Tue Jan 18 13:02:49.408495 2022] [wsgi:error] [pid 11371:tid 140692858115840] [remote 92.184.112.15:51522] Host: pausedefi.online\r
+[Tue Jan 18 13:02:49.408500 2022] [wsgi:error] [pid 11371:tid 140692858115840] [remote 92.184.112.15:51522] Accept-Encoding: gzip, deflate, br\r
+[Tue Jan 18 13:02:49.408505 2022] [wsgi:error] [pid 11371:tid 140692858115840] [remote 92.184.112.15:51522] Connection: keep-alive\r
+[Tue Jan 18 13:02:49.408510 2022] [wsgi:error] [pid 11371:tid 140692858115840] [remote 92.184.112.15:51522] \r
+[Tue Jan 18 13:02:49.408519 2022] [wsgi:error] [pid 11371:tid 140692858115840] [remote 92.184.112.15:51522] 
+[Tue Jan 18 13:02:49.408535 2022] [wsgi:error] [pid 11371:tid 140692858115840] [remote 92.184.112.15:51522] oui
+[Tue Jan 18 13:07:27.438900 2022] [wsgi:error] [pid 11371:tid 140692858115840] [remote 92.184.112.15:51697] <Request 'http://pausedefi.online/api/users/me' [GET]>
+[Tue Jan 18 13:07:27.439039 2022] [wsgi:error] [pid 11371:tid 140692858115840] [remote 92.184.112.15:51697] User-Agent: Dart/2.15 (dart:io)\r
+[Tue Jan 18 13:07:27.439049 2022] [wsgi:error] [pid 11371:tid 140692858115840] [remote 92.184.112.15:51697] Accept: application/json\r
+[Tue Jan 18 13:07:27.439055 2022] [wsgi:error] [pid 11371:tid 140692858115840] [remote 92.184.112.15:51697] Accept-Encoding: gzip\r
+[Tue Jan 18 13:07:27.439061 2022] [wsgi:error] [pid 11371:tid 140692858115840] [remote 92.184.112.15:51697] Host: pausedefi.online\r
+[Tue Jan 18 13:07:27.439066 2022] [wsgi:error] [pid 11371:tid 140692858115840] [remote 92.184.112.15:51697] \r
+[Tue Jan 18 13:07:27.439076 2022] [wsgi:error] [pid 11371:tid 140692858115840] [remote 92.184.112.15:51697] 
+[Tue Jan 18 13:07:27.439088 2022] [wsgi:error] [pid 11371:tid 140692858115840] [remote 92.184.112.15:51697] oui
+[Tue Jan 18 13:07:27.629113 2022] [wsgi:error] [pid 11371:tid 140692832937728] [remote 92.184.112.15:51697] <Request 'http://pausedefi.online/api/users/me' [GET]>
+[Tue Jan 18 13:07:27.629293 2022] [wsgi:error] [pid 11371:tid 140692832937728] [remote 92.184.112.15:51697] User-Agent: Dart/2.15 (dart:io)\r
+[Tue Jan 18 13:07:27.629318 2022] [wsgi:error] [pid 11371:tid 140692832937728] [remote 92.184.112.15:51697] Accept: application/json\r
+[Tue Jan 18 13:07:27.629324 2022] [wsgi:error] [pid 11371:tid 140692832937728] [remote 92.184.112.15:51697] Accept-Encoding: gzip\r
+[Tue Jan 18 13:07:27.629329 2022] [wsgi:error] [pid 11371:tid 140692832937728] [remote 92.184.112.15:51697] Host: pausedefi.online\r
+[Tue Jan 18 13:07:27.629333 2022] [wsgi:error] [pid 11371:tid 140692832937728] [remote 92.184.112.15:51697] \r
+[Tue Jan 18 13:07:27.629353 2022] [wsgi:error] [pid 11371:tid 140692832937728] [remote 92.184.112.15:51697] 
+[Tue Jan 18 13:07:27.629365 2022] [wsgi:error] [pid 11371:tid 140692832937728] [remote 92.184.112.15:51697] oui
+[Tue Jan 18 13:14:59.474591 2022] [wsgi:error] [pid 11527:tid 140692858115840] [remote 92.184.112.15:51997] mod_wsgi (pid=11527): Failed to exec Python script file '/var/www/pausedefi/pausedefi.wsgi'.
+[Tue Jan 18 13:14:59.474663 2022] [wsgi:error] [pid 11527:tid 140692858115840] [remote 92.184.112.15:51997] mod_wsgi (pid=11527): Exception occurred processing WSGI script '/var/www/pausedefi/pausedefi.wsgi'.
+[Tue Jan 18 13:14:59.475110 2022] [wsgi:error] [pid 11527:tid 140692858115840] [remote 92.184.112.15:51997] Traceback (most recent call last):
+[Tue Jan 18 13:14:59.475159 2022] [wsgi:error] [pid 11527:tid 140692858115840] [remote 92.184.112.15:51997]   File "/var/www/pausedefi/pausedefi.wsgi", line 8, in <module>
+[Tue Jan 18 13:14:59.475168 2022] [wsgi:error] [pid 11527:tid 140692858115840] [remote 92.184.112.15:51997]     from pausedefi_api import app as application
+[Tue Jan 18 13:14:59.475180 2022] [wsgi:error] [pid 11527:tid 140692858115840] [remote 92.184.112.15:51997]   File "/var/www/pausedefi/pausedefi_api/__init__.py", line 29, in <module>
+[Tue Jan 18 13:14:59.475186 2022] [wsgi:error] [pid 11527:tid 140692858115840] [remote 92.184.112.15:51997]     from pausedefi_api import routes
+[Tue Jan 18 13:14:59.475196 2022] [wsgi:error] [pid 11527:tid 140692858115840] [remote 92.184.112.15:51997]   File "/var/www/pausedefi/pausedefi_api/routes.py", line 182, in <module>
+[Tue Jan 18 13:14:59.475204 2022] [wsgi:error] [pid 11527:tid 140692858115840] [remote 92.184.112.15:51997]     @cross_origin(headers=['Content-Type','Authorization'])
+[Tue Jan 18 13:14:59.475224 2022] [wsgi:error] [pid 11527:tid 140692858115840] [remote 92.184.112.15:51997] NameError: name 'cross_origin' is not defined
+[Tue Jan 18 13:18:02.360586 2022] [wsgi:error] [pid 11587:tid 140692832937728] [remote 92.184.112.15:52134] mod_wsgi (pid=11587): Failed to exec Python script file '/var/www/pausedefi/pausedefi.wsgi'.
+[Tue Jan 18 13:18:02.360665 2022] [wsgi:error] [pid 11587:tid 140692832937728] [remote 92.184.112.15:52134] mod_wsgi (pid=11587): Exception occurred processing WSGI script '/var/www/pausedefi/pausedefi.wsgi'.
+[Tue Jan 18 13:18:02.361096 2022] [wsgi:error] [pid 11587:tid 140692832937728] [remote 92.184.112.15:52134] Traceback (most recent call last):
+[Tue Jan 18 13:18:02.361136 2022] [wsgi:error] [pid 11587:tid 140692832937728] [remote 92.184.112.15:52134]   File "/var/www/pausedefi/pausedefi.wsgi", line 8, in <module>
+[Tue Jan 18 13:18:02.361143 2022] [wsgi:error] [pid 11587:tid 140692832937728] [remote 92.184.112.15:52134]     from pausedefi_api import app as application
+[Tue Jan 18 13:18:02.361155 2022] [wsgi:error] [pid 11587:tid 140692832937728] [remote 92.184.112.15:52134]   File "/var/www/pausedefi/pausedefi_api/__init__.py", line 29, in <module>
+[Tue Jan 18 13:18:02.361160 2022] [wsgi:error] [pid 11587:tid 140692832937728] [remote 92.184.112.15:52134]     from pausedefi_api import routes
+[Tue Jan 18 13:18:02.361170 2022] [wsgi:error] [pid 11587:tid 140692832937728] [remote 92.184.112.15:52134]   File "/var/www/pausedefi/pausedefi_api/routes.py", line 183, in <module>
+[Tue Jan 18 13:18:02.361176 2022] [wsgi:error] [pid 11587:tid 140692832937728] [remote 92.184.112.15:52134]     @cross_origin(headers=['Content-Type','Authorization'])
+[Tue Jan 18 13:18:02.361213 2022] [wsgi:error] [pid 11587:tid 140692832937728] [remote 92.184.112.15:52134] NameError: name 'cross_origin' is not defined
+[Tue Jan 18 13:18:28.950875 2022] [wsgi:error] [pid 11631:tid 140692858115840] [remote 92.184.112.15:52152] [2022-01-18 13:18:28,948] ERROR in app: Exception on /api/users/me [GET]
+[Tue Jan 18 13:18:28.950924 2022] [wsgi:error] [pid 11631:tid 140692858115840] [remote 92.184.112.15:52152] Traceback (most recent call last):
+[Tue Jan 18 13:18:28.950930 2022] [wsgi:error] [pid 11631:tid 140692858115840] [remote 92.184.112.15:52152]   File "/home/toto/.local/share/virtualenvs/pausedefi-7-KaKzYS/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+[Tue Jan 18 13:18:28.950937 2022] [wsgi:error] [pid 11631:tid 140692858115840] [remote 92.184.112.15:52152]     response = self.full_dispatch_request()
+[Tue Jan 18 13:18:28.950942 2022] [wsgi:error] [pid 11631:tid 140692858115840] [remote 92.184.112.15:52152]   File "/home/toto/.local/share/virtualenvs/pausedefi-7-KaKzYS/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+[Tue Jan 18 13:18:28.950948 2022] [wsgi:error] [pid 11631:tid 140692858115840] [remote 92.184.112.15:52152]     rv = self.handle_user_exception(e)
+[Tue Jan 18 13:18:28.950953 2022] [wsgi:error] [pid 11631:tid 140692858115840] [remote 92.184.112.15:52152]   File "/home/toto/.local/share/virtualenvs/pausedefi-7-KaKzYS/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+[Tue Jan 18 13:18:28.950959 2022] [wsgi:error] [pid 11631:tid 140692858115840] [remote 92.184.112.15:52152]     rv = self.dispatch_request()
+[Tue Jan 18 13:18:28.950964 2022] [wsgi:error] [pid 11631:tid 140692858115840] [remote 92.184.112.15:52152]   File "/home/toto/.local/share/virtualenvs/pausedefi-7-KaKzYS/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+[Tue Jan 18 13:18:28.950970 2022] [wsgi:error] [pid 11631:tid 140692858115840] [remote 92.184.112.15:52152]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Tue Jan 18 13:18:28.950975 2022] [wsgi:error] [pid 11631:tid 140692858115840] [remote 92.184.112.15:52152]   File "/var/www/pausedefi/pausedefi_api/routes.py", line 14, in decorated
+[Tue Jan 18 13:18:28.950981 2022] [wsgi:error] [pid 11631:tid 140692858115840] [remote 92.184.112.15:52152]     print("\\nREQUEST\\n" + request + "\\n END REQUEST\\n")
+[Tue Jan 18 13:18:28.950986 2022] [wsgi:error] [pid 11631:tid 140692858115840] [remote 92.184.112.15:52152]   File "/home/toto/.local/share/virtualenvs/pausedefi-7-KaKzYS/lib/python3.8/site-packages/werkzeug/local.py", line 482, in r_op
+[Tue Jan 18 13:18:28.950992 2022] [wsgi:error] [pid 11631:tid 140692858115840] [remote 92.184.112.15:52152]     return op(other, obj)
+[Tue Jan 18 13:18:28.950997 2022] [wsgi:error] [pid 11631:tid 140692858115840] [remote 92.184.112.15:52152] TypeError: can only concatenate str (not "Request") to str
+[Tue Jan 18 13:19:14.860256 2022] [wsgi:error] [pid 11675:tid 140692832937728] [remote 92.184.112.15:52177] None
+[Tue Jan 18 13:19:14.860315 2022] [wsgi:error] [pid 11675:tid 140692832937728] [remote 92.184.112.15:52177] oui
+[Tue Jan 18 13:22:52.885834 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314] User-Agent: PostmanRuntime/7.28.4\r
+[Tue Jan 18 13:22:52.885875 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314] Accept: */*\r
+[Tue Jan 18 13:22:52.885882 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314] Cache-Control: no-cache\r
+[Tue Jan 18 13:22:52.885888 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314] Postman-Token: efcfa089-d050-4286-83e2-5887609e9e25\r
+[Tue Jan 18 13:22:52.885893 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314] Host: pausedefi.online\r
+[Tue Jan 18 13:22:52.885899 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314] Accept-Encoding: gzip, deflate, br\r
+[Tue Jan 18 13:22:52.885904 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314] Connection: keep-alive\r
+[Tue Jan 18 13:22:52.885930 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314] \r
+[Tue Jan 18 13:22:52.885942 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314] 
+[Tue Jan 18 13:22:52.887125 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314] [2022-01-18 13:22:52,886] ERROR in app: Exception on /api/users/me [GET]
+[Tue Jan 18 13:22:52.887140 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314] Traceback (most recent call last):
+[Tue Jan 18 13:22:52.887146 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314]   File "/home/toto/.local/share/virtualenvs/pausedefi-7-KaKzYS/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+[Tue Jan 18 13:22:52.887151 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314]     response = self.full_dispatch_request()
+[Tue Jan 18 13:22:52.887155 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314]   File "/home/toto/.local/share/virtualenvs/pausedefi-7-KaKzYS/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+[Tue Jan 18 13:22:52.887160 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314]     rv = self.handle_user_exception(e)
+[Tue Jan 18 13:22:52.887164 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314]   File "/home/toto/.local/share/virtualenvs/pausedefi-7-KaKzYS/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+[Tue Jan 18 13:22:52.887169 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314]     rv = self.dispatch_request()
+[Tue Jan 18 13:22:52.887173 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314]   File "/home/toto/.local/share/virtualenvs/pausedefi-7-KaKzYS/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+[Tue Jan 18 13:22:52.887178 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Tue Jan 18 13:22:52.887182 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314]   File "/var/www/pausedefi/pausedefi_api/routes.py", line 15, in decorated
+[Tue Jan 18 13:22:52.887186 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314]     print(flask.request.authorization)
+[Tue Jan 18 13:22:52.887191 2022] [wsgi:error] [pid 11732:tid 140692832937728] [remote 92.184.112.15:52314] NameError: name 'flask' is not defined
+[Tue Jan 18 13:39:19.989991 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993] User-Agent: PostmanRuntime/7.28.4\r
+[Tue Jan 18 13:39:19.990198 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993] Accept: */*\r
+[Tue Jan 18 13:39:19.990207 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993] Cache-Control: no-cache\r
+[Tue Jan 18 13:39:19.990213 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993] Postman-Token: 06a5c7db-77ba-44cb-81ca-8ace66426e1a\r
+[Tue Jan 18 13:39:19.990218 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993] Host: pausedefi.online\r
+[Tue Jan 18 13:39:19.990223 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993] Accept-Encoding: gzip, deflate, br\r
+[Tue Jan 18 13:39:19.990228 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993] Connection: keep-alive\r
+[Tue Jan 18 13:39:19.990234 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993] \r
+[Tue Jan 18 13:39:19.990263 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993] 
+[Tue Jan 18 13:39:19.991955 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993] [2022-01-18 13:39:19,990] ERROR in app: Exception on /api/users/me [GET]
+[Tue Jan 18 13:39:19.991992 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993] Traceback (most recent call last):
+[Tue Jan 18 13:39:19.991998 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993]   File "/home/toto/.local/share/virtualenvs/pausedefi-7-KaKzYS/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+[Tue Jan 18 13:39:19.992003 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993]     response = self.full_dispatch_request()
+[Tue Jan 18 13:39:19.992008 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993]   File "/home/toto/.local/share/virtualenvs/pausedefi-7-KaKzYS/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+[Tue Jan 18 13:39:19.992012 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993]     rv = self.handle_user_exception(e)
+[Tue Jan 18 13:39:19.992016 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993]   File "/home/toto/.local/share/virtualenvs/pausedefi-7-KaKzYS/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+[Tue Jan 18 13:39:19.992021 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993]     return cors_after_request(app.make_response(f(*args, **kwargs)))
+[Tue Jan 18 13:39:19.992026 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993]   File "/home/toto/.local/share/virtualenvs/pausedefi-7-KaKzYS/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+[Tue Jan 18 13:39:19.992030 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993]     rv = self.dispatch_request()
+[Tue Jan 18 13:39:19.992034 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993]   File "/home/toto/.local/share/virtualenvs/pausedefi-7-KaKzYS/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+[Tue Jan 18 13:39:19.992039 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Tue Jan 18 13:39:19.992043 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993]   File "/var/www/pausedefi/pausedefi_api/routes.py", line 15, in decorated
+[Tue Jan 18 13:39:19.992054 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993]     print(flask.request.authorization)
+[Tue Jan 18 13:39:19.992059 2022] [wsgi:error] [pid 11853:tid 140692832937728] [remote 92.184.112.224:52993] NameError: name 'flask' is not defined
+[Tue Jan 18 13:40:18.531916 2022] [wsgi:error] [pid 11898:tid 140692832937728] [remote 92.184.112.224:53030] User-Agent: PostmanRuntime/7.28.4\r
+[Tue Jan 18 13:40:18.531959 2022] [wsgi:error] [pid 11898:tid 140692832937728] [remote 92.184.112.224:53030] Accept: */*\r
+[Tue Jan 18 13:40:18.531965 2022] [wsgi:error] [pid 11898:tid 140692832937728] [remote 92.184.112.224:53030] Cache-Control: no-cache\r
+[Tue Jan 18 13:40:18.531971 2022] [wsgi:error] [pid 11898:tid 140692832937728] [remote 92.184.112.224:53030] Postman-Token: d1a0d5ad-fe85-48c6-85ca-6979033bda9e\r
+[Tue Jan 18 13:40:18.531976 2022] [wsgi:error] [pid 11898:tid 140692832937728] [remote 92.184.112.224:53030] Host: pausedefi.online\r
+[Tue Jan 18 13:40:18.531981 2022] [wsgi:error] [pid 11898:tid 140692832937728] [remote 92.184.112.224:53030] Accept-Encoding: gzip, deflate, br\r
+[Tue Jan 18 13:40:18.531986 2022] [wsgi:error] [pid 11898:tid 140692832937728] [remote 92.184.112.224:53030] Connection: keep-alive\r
+[Tue Jan 18 13:40:18.531991 2022] [wsgi:error] [pid 11898:tid 140692832937728] [remote 92.184.112.224:53030] \r
+[Tue Jan 18 13:40:18.532004 2022] [wsgi:error] [pid 11898:tid 140692832937728] [remote 92.184.112.224:53030] 
+[Tue Jan 18 13:40:18.532042 2022] [wsgi:error] [pid 11898:tid 140692832937728] [remote 92.184.112.224:53030] None
+[Tue Jan 18 13:40:18.532056 2022] [wsgi:error] [pid 11898:tid 140692832937728] [remote 92.184.112.224:53030] oui
+[Tue Jan 18 13:40:40.754002 2022] [wsgi:error] [pid 11898:tid 140692832937728] [remote 92.184.112.224:53048] User-Agent: Dart/2.15 (dart:io)\r
+[Tue Jan 18 13:40:40.754049 2022] [wsgi:error] [pid 11898:tid 140692832937728] [remote 92.184.112.224:53048] Accept: application/json\r
+[Tue Jan 18 13:40:40.754058 2022] [wsgi:error] [pid 11898:tid 140692832937728] [remote 92.184.112.224:53048] Accept-Encoding: gzip\r
+[Tue Jan 18 13:40:40.754065 2022] [wsgi:error] [pid 11898:tid 140692832937728] [remote 92.184.112.224:53048] Host: pausedefi.online\r
+[Tue Jan 18 13:40:40.754072 2022] [wsgi:error] [pid 11898:tid 140692832937728] [remote 92.184.112.224:53048] \r
+[Tue Jan 18 13:40:40.754090 2022] [wsgi:error] [pid 11898:tid 140692832937728] [remote 92.184.112.224:53048] 
+[Tue Jan 18 13:40:40.754158 2022] [wsgi:error] [pid 11898:tid 140692832937728] [remote 92.184.112.224:53048] None
+[Tue Jan 18 13:40:40.754177 2022] [wsgi:error] [pid 11898:tid 140692832937728] [remote 92.184.112.224:53048] oui
+[Tue Jan 18 13:40:40.923808 2022] [wsgi:error] [pid 11898:tid 140692858115840] [remote 92.184.112.224:53048] User-Agent: Dart/2.15 (dart:io)\r
+[Tue Jan 18 13:40:40.923840 2022] [wsgi:error] [pid 11898:tid 140692858115840] [remote 92.184.112.224:53048] Accept: application/json\r
+[Tue Jan 18 13:40:40.923848 2022] [wsgi:error] [pid 11898:tid 140692858115840] [remote 92.184.112.224:53048] Accept-Encoding: gzip\r
+[Tue Jan 18 13:40:40.923855 2022] [wsgi:error] [pid 11898:tid 140692858115840] [remote 92.184.112.224:53048] Host: pausedefi.online\r
+[Tue Jan 18 13:40:40.923863 2022] [wsgi:error] [pid 11898:tid 140692858115840] [remote 92.184.112.224:53048] \r
+[Tue Jan 18 13:40:40.923880 2022] [wsgi:error] [pid 11898:tid 140692858115840] [remote 92.184.112.224:53048] 
+[Tue Jan 18 13:40:40.923941 2022] [wsgi:error] [pid 11898:tid 140692858115840] [remote 92.184.112.224:53048] None
+[Tue Jan 18 13:40:40.923960 2022] [wsgi:error] [pid 11898:tid 140692858115840] [remote 92.184.112.224:53048] oui
+[Tue Jan 18 13:43:54.705085 2022] [wsgi:error] [pid 11974:tid 140216484165376] [remote 92.184.112.224:53189] None
+[Tue Jan 18 13:58:41.074971 2022] [wsgi:error] [pid 12059:tid 140545853851392] [remote 92.184.112.13:53729] None
+[Tue Jan 18 13:59:10.637977 2022] [wsgi:error] [pid 12132:tid 139785412388608] [remote 92.184.112.13:53745] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxfQ.6bGj0CrK98hWe7W94DcIZWX_QbZ1z1YkHo_1WnIL7eg
+[Tue Jan 18 14:01:12.673270 2022] [wsgi:error] [pid 12204:tid 139986727528192] [remote 92.184.112.13:53830] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxfQ.6bGj0CrK98hWe7W94DcIZWX_QbZ1z1YkHo_1WnIL7eg
+[Tue Jan 18 14:01:12.912455 2022] [wsgi:error] [pid 12204:tid 139986761099008] [remote 92.184.112.13:53830] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxfQ.6bGj0CrK98hWe7W94DcIZWX_QbZ1z1YkHo_1WnIL7eg
+[Tue Jan 18 14:01:13.162589 2022] [wsgi:error] [pid 12204:tid 139986727528192] [remote 92.184.112.13:53830] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxfQ.6bGj0CrK98hWe7W94DcIZWX_QbZ1z1YkHo_1WnIL7eg
+[Tue Jan 18 14:01:41.139692 2022] [wsgi:error] [pid 12204:tid 139986761099008] [remote 92.184.112.13:53849] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxfQ.6bGj0CrK98hWe7W94DcIZWX_QbZ1z1YkHo_1WnIL7eg
+[Tue Jan 18 14:01:55.511179 2022] [wsgi:error] [pid 12204:tid 139986727528192] [remote 92.184.112.72:53864] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxfQ.6bGj0CrK98hWe7W94DcIZWX_QbZ1z1YkHo_1WnIL7eg
+[Tue Jan 18 14:01:55.526020 2022] [wsgi:error] [pid 12204:tid 139986761099008] [remote 92.184.112.13:53861] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxfQ.6bGj0CrK98hWe7W94DcIZWX_QbZ1z1YkHo_1WnIL7eg
+[Tue Jan 18 14:01:55.531359 2022] [wsgi:error] [pid 12204:tid 139986735920896] [remote 92.184.112.72:53866] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxfQ.6bGj0CrK98hWe7W94DcIZWX_QbZ1z1YkHo_1WnIL7eg
+[Tue Jan 18 14:01:55.539259 2022] [wsgi:error] [pid 12204:tid 139986727528192] [remote 92.184.112.13:53863] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxfQ.6bGj0CrK98hWe7W94DcIZWX_QbZ1z1YkHo_1WnIL7eg
+[Tue Jan 18 14:01:59.873100 2022] [wsgi:error] [pid 12204:tid 139986744313600] [remote 92.184.112.13:53870] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxfQ.6bGj0CrK98hWe7W94DcIZWX_QbZ1z1YkHo_1WnIL7eg
+[Tue Jan 18 14:02:20.103133 2022] [wsgi:error] [pid 12204:tid 139986761099008] [remote 92.184.112.13:53884] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:02:20.273110 2022] [wsgi:error] [pid 12204:tid 139986744313600] [remote 92.184.112.13:53884] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:02:20.482923 2022] [wsgi:error] [pid 12204:tid 139986761099008] [remote 92.184.112.13:53884] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:03:42.200103 2022] [wsgi:error] [pid 12204:tid 139986744313600] [remote 92.184.112.13:53940] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:03:47.406060 2022] [wsgi:error] [pid 12204:tid 139986761099008] [remote 92.184.112.13:53947] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:03:47.415791 2022] [wsgi:error] [pid 12204:tid 139986727528192] [remote 92.184.112.13:53946] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:03:47.418991 2022] [wsgi:error] [pid 12204:tid 139986735920896] [remote 92.184.112.13:53948] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:03:47.432705 2022] [wsgi:error] [pid 12204:tid 139986744313600] [remote 92.184.112.13:53949] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:03:59.283082 2022] [wsgi:error] [pid 12204:tid 139986744313600] [remote 92.184.112.13:53961] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:03:59.513313 2022] [wsgi:error] [pid 12204:tid 139986752706304] [remote 92.184.112.13:53961] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:03:59.743224 2022] [wsgi:error] [pid 12204:tid 139986744313600] [remote 92.184.112.13:53961] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:05:25.894660 2022] [wsgi:error] [pid 12204:tid 139986752706304] [remote 92.184.112.72:54040] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:05:25.905939 2022] [wsgi:error] [pid 12204:tid 139986744313600] [remote 92.184.112.72:54041] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:05:43.470995 2022] [wsgi:error] [pid 12204:tid 139986752706304] [remote 92.184.112.72:54059] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:05:43.652927 2022] [wsgi:error] [pid 12204:tid 139986735920896] [remote 92.184.112.72:54059] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:05:43.902989 2022] [wsgi:error] [pid 12204:tid 139986752706304] [remote 92.184.112.72:54059] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:05:49.273424 2022] [wsgi:error] [pid 12204:tid 139986752706304] [remote 92.184.112.13:54064] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:05:51.613413 2022] [wsgi:error] [pid 12204:tid 139986735920896] [remote 92.184.112.13:54064] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:05:51.686469 2022] [wsgi:error] [pid 12204:tid 139986752706304] [remote 92.184.112.13:54067] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:05:51.691510 2022] [wsgi:error] [pid 12204:tid 139986744313600] [remote 92.184.112.13:54066] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:05:51.699015 2022] [wsgi:error] [pid 12204:tid 139986735920896] [remote 92.184.112.13:54068] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:05:54.843783 2022] [wsgi:error] [pid 12204:tid 139986727528192] [remote 92.184.112.13:54068] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:06:33.661888 2022] [wsgi:error] [pid 12204:tid 139986752706304] [remote 92.184.112.13:54101] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:06:33.677256 2022] [wsgi:error] [pid 12204:tid 139986727528192] [remote 92.184.112.13:54100] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:06:35.910486 2022] [wsgi:error] [pid 12204:tid 139986735920896] [remote 92.184.112.13:54100] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:08:24.897490 2022] [wsgi:error] [pid 12275:tid 139893063538432] [remote 92.184.112.13:54167] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:08:24.897647 2022] [wsgi:error] [pid 12275:tid 139893097109248] [remote 92.184.112.13:54166] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:08:25.483199 2022] [wsgi:error] [pid 12275:tid 139893071931136] [remote 92.184.112.13:54167] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:08:25.483809 2022] [wsgi:error] [pid 12275:tid 139893071931136] [remote 92.184.112.13:54167] points
+[Tue Jan 18 14:10:08.924968 2022] [wsgi:error] [pid 12275:tid 139893063538432] [remote 92.184.112.13:54228] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxfQ.6bGj0CrK98hWe7W94DcIZWX_QbZ1z1YkHo_1WnIL7eg
+[Tue Jan 18 14:10:08.925572 2022] [wsgi:error] [pid 12275:tid 139893063538432] [remote 92.184.112.13:54228] points
+[Tue Jan 18 14:11:35.079959 2022] [wsgi:error] [pid 12275:tid 139893063538432] [remote 92.184.112.13:54283] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:11:35.088150 2022] [wsgi:error] [pid 12275:tid 139893071931136] [remote 92.184.112.13:54282] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:11:37.250208 2022] [wsgi:error] [pid 12275:tid 139893097109248] [remote 92.184.112.13:54282] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:11:37.250767 2022] [wsgi:error] [pid 12275:tid 139893097109248] [remote 92.184.112.13:54282] points
+[Tue Jan 18 14:12:07.884518 2022] [wsgi:error] [pid 12275:tid 139893071931136] [remote 92.184.112.13:54307] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:12:07.894869 2022] [wsgi:error] [pid 12275:tid 139893097109248] [remote 92.184.112.13:54306] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:12:09.591121 2022] [wsgi:error] [pid 12275:tid 139893071931136] [remote 92.184.112.13:54306] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:12:09.591765 2022] [wsgi:error] [pid 12275:tid 139893071931136] [remote 92.184.112.13:54306] points
+[Tue Jan 18 14:13:15.393682 2022] [wsgi:error] [pid 12275:tid 139893097109248] [remote 92.184.112.13:54349] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:13:15.409303 2022] [wsgi:error] [pid 12275:tid 139893071931136] [remote 92.184.112.13:54348] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:13:17.323390 2022] [wsgi:error] [pid 12275:tid 139893063538432] [remote 92.184.112.13:54348] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:13:17.324022 2022] [wsgi:error] [pid 12275:tid 139893063538432] [remote 92.184.112.13:54348] points
+[Tue Jan 18 14:14:23.419837 2022] [wsgi:error] [pid 12275:tid 139893063538432] [remote 92.184.112.13:54399] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:14:43.245600 2022] [wsgi:error] [pid 12275:tid 139893071931136] [remote 92.184.112.13:54418] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:14:43.256153 2022] [wsgi:error] [pid 12275:tid 139893063538432] [remote 92.184.112.13:54417] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:14:46.072602 2022] [wsgi:error] [pid 12275:tid 139893071931136] [remote 92.184.112.13:54417] Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.hJEnfmlQUZgBeCHLOh-dzme7sLI9VBCiG5HYkXEiFBU
+[Tue Jan 18 14:14:46.073119 2022] [wsgi:error] [pid 12275:tid 139893071931136] [remote 92.184.112.13:54417] points
+[Tue Jan 18 14:54:44.394828 2022] [wsgi:error] [pid 12423:tid 140463017854720] [remote 92.184.112.178:55323] [2022-01-18 14:54:44,393] ERROR in app: Exception on /api/room/1/users [GET]
+[Tue Jan 18 14:54:44.395006 2022] [wsgi:error] [pid 12423:tid 140463017854720] [remote 92.184.112.178:55323] Traceback (most recent call last):
+[Tue Jan 18 14:54:44.395015 2022] [wsgi:error] [pid 12423:tid 140463017854720] [remote 92.184.112.178:55323]   File "/home/toto/.local/share/virtualenvs/pausedefi-7-KaKzYS/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+[Tue Jan 18 14:54:44.395022 2022] [wsgi:error] [pid 12423:tid 140463017854720] [remote 92.184.112.178:55323]     response = self.full_dispatch_request()
+[Tue Jan 18 14:54:44.395028 2022] [wsgi:error] [pid 12423:tid 140463017854720] [remote 92.184.112.178:55323]   File "/home/toto/.local/share/virtualenvs/pausedefi-7-KaKzYS/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+[Tue Jan 18 14:54:44.395033 2022] [wsgi:error] [pid 12423:tid 140463017854720] [remote 92.184.112.178:55323]     rv = self.handle_user_exception(e)
+[Tue Jan 18 14:54:44.395039 2022] [wsgi:error] [pid 12423:tid 140463017854720] [remote 92.184.112.178:55323]   File "/home/toto/.local/share/virtualenvs/pausedefi-7-KaKzYS/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+[Tue Jan 18 14:54:44.395045 2022] [wsgi:error] [pid 12423:tid 140463017854720] [remote 92.184.112.178:55323]     rv = self.dispatch_request()
+[Tue Jan 18 14:54:44.395050 2022] [wsgi:error] [pid 12423:tid 140463017854720] [remote 92.184.112.178:55323]   File "/home/toto/.local/share/virtualenvs/pausedefi-7-KaKzYS/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+[Tue Jan 18 14:54:44.395056 2022] [wsgi:error] [pid 12423:tid 140463017854720] [remote 92.184.112.178:55323]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Tue Jan 18 14:54:44.395062 2022] [wsgi:error] [pid 12423:tid 140463017854720] [remote 92.184.112.178:55323]   File "/var/www/pausedefi/pausedefi_api/routes.py", line 25, in decorated
+[Tue Jan 18 14:54:44.395067 2022] [wsgi:error] [pid 12423:tid 140463017854720] [remote 92.184.112.178:55323]     return func(*args, **kwargs)
+[Tue Jan 18 14:54:44.395073 2022] [wsgi:error] [pid 12423:tid 140463017854720] [remote 92.184.112.178:55323]   File "/var/www/pausedefi/pausedefi_api/routes.py", line 107, in get_users_in_room
+[Tue Jan 18 14:54:44.395086 2022] [wsgi:error] [pid 12423:tid 140463017854720] [remote 92.184.112.178:55323]     return UserSchema(many=True, context={'room_id': id}).jsonify(User.query.filter(or_(User.rooms.any(id=id), User.rooms.any(creator_id=User.id))).join(User.room_users).order_by(cast(RoomUsers.points, Integer)).all())
+[Tue Jan 18 14:54:44.395092 2022] [wsgi:error] [pid 12423:tid 140463017854720] [remote 92.184.112.178:55323] NameError: name 'Integer' is not defined
+[Tue Jan 18 15:14:32.272972 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56078] mod_wsgi (pid=13032): Failed to exec Python script file '/var/www/pausedefi/pausedefi.wsgi'.
+[Tue Jan 18 15:14:32.273206 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56078] mod_wsgi (pid=13032): Exception occurred processing WSGI script '/var/www/pausedefi/pausedefi.wsgi'.
+[Tue Jan 18 15:14:32.273896 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56078] Traceback (most recent call last):
+[Tue Jan 18 15:14:32.273970 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56078]   File "/var/www/pausedefi/pausedefi.wsgi", line 8, in <module>
+[Tue Jan 18 15:14:32.273983 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56078]     from pausedefi_api import app as application
+[Tue Jan 18 15:14:32.274004 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56078]   File "/var/www/pausedefi/pausedefi_api/__init__.py", line 29, in <module>
+[Tue Jan 18 15:14:32.274014 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56078]     from pausedefi_api import routes
+[Tue Jan 18 15:14:32.274032 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56078]   File "/var/www/pausedefi/pausedefi_api/routes.py", line 2, in <module>
+[Tue Jan 18 15:14:32.274042 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56078]     from models import ChallengeState
+[Tue Jan 18 15:14:32.274074 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56078] ModuleNotFoundError: No module named 'models'
+[Tue Jan 18 15:14:33.905605 2022] [wsgi:error] [pid 13032:tid 140505328584448] [remote 92.184.112.178:56082] mod_wsgi (pid=13032): Failed to exec Python script file '/var/www/pausedefi/pausedefi.wsgi'.
+[Tue Jan 18 15:14:33.905665 2022] [wsgi:error] [pid 13032:tid 140505328584448] [remote 92.184.112.178:56082] mod_wsgi (pid=13032): Exception occurred processing WSGI script '/var/www/pausedefi/pausedefi.wsgi'.
+[Tue Jan 18 15:14:33.905790 2022] [wsgi:error] [pid 13032:tid 140505328584448] [remote 92.184.112.178:56082] Traceback (most recent call last):
+[Tue Jan 18 15:14:33.905830 2022] [wsgi:error] [pid 13032:tid 140505328584448] [remote 92.184.112.178:56082]   File "/var/www/pausedefi/pausedefi.wsgi", line 8, in <module>
+[Tue Jan 18 15:14:33.905837 2022] [wsgi:error] [pid 13032:tid 140505328584448] [remote 92.184.112.178:56082]     from pausedefi_api import app as application
+[Tue Jan 18 15:14:33.905847 2022] [wsgi:error] [pid 13032:tid 140505328584448] [remote 92.184.112.178:56082]   File "/var/www/pausedefi/pausedefi_api/__init__.py", line 29, in <module>
+[Tue Jan 18 15:14:33.905853 2022] [wsgi:error] [pid 13032:tid 140505328584448] [remote 92.184.112.178:56082]     from pausedefi_api import routes
+[Tue Jan 18 15:14:33.905877 2022] [wsgi:error] [pid 13032:tid 140505328584448] [remote 92.184.112.178:56082]   File "/var/www/pausedefi/pausedefi_api/routes.py", line 2, in <module>
+[Tue Jan 18 15:14:33.905897 2022] [wsgi:error] [pid 13032:tid 140505328584448] [remote 92.184.112.178:56082]     from models import ChallengeState
+[Tue Jan 18 15:14:33.905916 2022] [wsgi:error] [pid 13032:tid 140505328584448] [remote 92.184.112.178:56082] ModuleNotFoundError: No module named 'models'
+[Tue Jan 18 15:14:34.940757 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56084] mod_wsgi (pid=13032): Failed to exec Python script file '/var/www/pausedefi/pausedefi.wsgi'.
+[Tue Jan 18 15:14:34.940850 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56084] mod_wsgi (pid=13032): Exception occurred processing WSGI script '/var/www/pausedefi/pausedefi.wsgi'.
+[Tue Jan 18 15:14:34.941008 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56084] Traceback (most recent call last):
+[Tue Jan 18 15:14:34.941063 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56084]   File "/var/www/pausedefi/pausedefi.wsgi", line 8, in <module>
+[Tue Jan 18 15:14:34.941073 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56084]     from pausedefi_api import app as application
+[Tue Jan 18 15:14:34.941089 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56084]   File "/var/www/pausedefi/pausedefi_api/__init__.py", line 29, in <module>
+[Tue Jan 18 15:14:34.941097 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56084]     from pausedefi_api import routes
+[Tue Jan 18 15:14:34.941112 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56084]   File "/var/www/pausedefi/pausedefi_api/routes.py", line 2, in <module>
+[Tue Jan 18 15:14:34.941120 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56084]     from models import ChallengeState
+[Tue Jan 18 15:14:34.941149 2022] [wsgi:error] [pid 13032:tid 140505362155264] [remote 92.184.112.178:56084] ModuleNotFoundError: No module named 'models'
+[Tue Jan 18 15:19:33.965856 2022] [wsgi:error] [pid 13161:tid 140101362534144] [remote 92.184.112.178:56296] la
