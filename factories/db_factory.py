@@ -1,3 +1,8 @@
+import sys
+sys.path.append('/var/www/pausedefi')
+
+print(sys.path)
+
 from pausedefi_api import app
 import mysql.connector
 
